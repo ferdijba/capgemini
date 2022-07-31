@@ -1,0 +1,15 @@
+package Classes;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa();
+		
+		pessoa.calcularIMC();
+		System.out.println(pessoa.calcularIMC());
+
+		
+		
+	}
+
+}

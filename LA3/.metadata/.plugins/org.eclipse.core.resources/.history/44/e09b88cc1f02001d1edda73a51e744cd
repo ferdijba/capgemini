@@ -1,0 +1,18 @@
+package Heranca;
+
+import java.sql.Date;
+
+public class Funcionario {
+	
+	private String nome;
+	private String cpf;
+	private Date dataNasc;
+	private float salario;
+	
+	//Metodo Construtor
+	public Funcionario() {
+	
+	}
+	
+
+}

@@ -1,0 +1,16 @@
+package Classes;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Pessoa pessoa = new Pessoa();
+		
+		System.out.println("Digite o peso");
+		System.out.println("Digite a altura");
+		
+
+		
+		
+	}
+
+}

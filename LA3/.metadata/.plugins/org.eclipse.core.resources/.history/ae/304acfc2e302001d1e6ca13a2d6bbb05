@@ -1,0 +1,17 @@
+package Ex04;
+
+public class Invoice {
+	
+	private int codigoItem;
+	private String descricao;
+	private int quantidade;
+	private float precoUnitario;
+	
+	
+	
+	public Invoice() {
+	
+	}
+	
+
+}

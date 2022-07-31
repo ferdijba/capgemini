@@ -1,0 +1,48 @@
+package Ex22;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		String produto;
+		float preco;
+		float precoVenda;
+		float totalCusto = 0;
+		float totalVenda = 0;
+
+		Scanner leitor = new Scanner(System.in);
+
+		for (int i = 0; i < 40; i++) {
+			System.out.println("Digite o nome do produto: ");
+			produto = leitor.nextLine();
+
+			System.out.println("Digite o preco de custo");
+			preco = leitor.nextFloat();
+
+			System.out.println("Digite o preco de venda");
+			precoVenda = leitor.nextFloat();
+
+			totalCusto = totalCusto + preco;
+			totalVenda = totalVenda + precoVenda;
+
+			if (preco == precoVenda) {
+				System.out.println("Houve um empate entre preco de custo e preco de venda");
+
+			} else {
+				if (preco > precoVenda) {
+					System.out.println("Houve um prejuizo entre preco de custo e preco de venda");
+				} else {
+					System.out.println("Houve lucro!!");
+				}
+			}
+
+			System.out.println(produto + " , preco de custo = " + preco + ", preco de Venda " + precoVenda);
+
+			System.out.println("O média do preco de custo é de:" + totalCusto / i);
+			System.out.println("O média do preco de venda é de:" + totalVenda / i);
+		}
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package Heranca;
+
+import java.sql.Date;
+
+public class Vendedor extends Funcionario {
+
+	private int itensVendidos;
+	private float comissaoPorItem;
+	
+	
+	public Vendedor() {
+	
+	}
+
+}

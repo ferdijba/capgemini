@@ -1,0 +1,28 @@
+package Classes;
+
+import java.util.Scanner;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		float peso, altura;
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		Pessoa pessoa = new Pessoa(80, 1.67f);
+		
+		
+		/*System.out.println("Digite o peso");
+		pessoa.setPeso(leitor.nextFloat());
+		
+		System.out.println("Digite a altura");
+		pessoa.setAltura(leitor.nextFloat());*/
+		
+		
+		System.out.println("IMC = "+ pessoa.calcularIMC());
+
+		
+		
+	}
+
+}
